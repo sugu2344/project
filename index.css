@@ -289,3 +289,34 @@ margin-left: 20px;
 .low{
     font-size:px;
 }
+.tarikcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+/* .........boxten.......... */
+.boxtenwhole{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f3f9fa;
+}
+.socialmediaimg{
+    height: 50px;
+    padding-left: 5px;
+}
+.list{
+    list-style: none;
+    padding-top: 10px;
+}
+.company{
+    padding-top: 53px   ;
+}
+.spacing{
+    margintop: 20px;
+}
+.unorderedlist{
+    padding-top: 10px;
+
+}
