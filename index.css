@@ -220,12 +220,101 @@ margin-left: 20px;
     padding-left: 10px;
 }
 /* .....boxsix............ */
+.boxsixwhole {
+    display: flex;
+    margin-right: 70px;
+    justify-content: space-around;
+    background-color: #f3f9fa;
+  
+    padding: 80px 50px 80px 0px;
+}
+.color{
+    color: #248795;
+    padding-bottom: 20px;
+}
+.starr {
+    display: flex;
+    align-items: start;
+    height: 35px;
+    padding-right: 20px
+}
+.bulletion1{
+    padding-top: 20px;
+}
+.divide{
+    padding-bottom: 20px;
+}
+.other{
+    padding-bottom: 10px;
+}
+/* ..............form.............. */
+.formheading{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3f9fa;
+    padding: 28px;
+    border-radius: 8px;
+ 
+}
+.boxsubhead{
+    display: flex;
+    justify-content: space-around;
+}
+input[type=text],select{
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+input[type="textarea"],select{
+    padding: 21px,122px;
+    border-radius: 5px;
+}
+option[value=value2]{
+    padding: 21px,122px;
+    border-radius: 5px;
+
+}
+.boxsixright{
+    background-color: white;
+    padding: 70px;
+    border-radius: 10px;
+}
+.boxxxxx1{
+    background-color: white;
+    padding: 7px 40px;
+    border-radius: 10px;
+
+}
+.reqaquote{
+    display: flex;
+    align-items: center;
+    background-color: #248795;
+    padding: 10px 100px;
+    border-radius: 12px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
 /* .........boxseven....... */
-/* ....boxsevenleft...... */
+
 .boxsevenimage{
     height: 480px;
     width: 530px;
 }
+.bulletion1{
+    display: flex;
+}
+
+
+
+
+
+
+
 /* .........boxsevenright.... */
 .smallbox {
     display: flex;
@@ -285,15 +374,19 @@ margin-left: 20px;
 }
 .tarikimg{
     display: flex;
+    padding-top: 20px;
 }
 .low{
     font-size:px;
 }
 .tarikcontent{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
  
+}
+.leftrightarrows{
+padding-left: 100px;
 }
 /* .........boxten.......... */
 .boxtenwhole{
@@ -301,10 +394,15 @@ margin-left: 20px;
     flex-direction: row;
     justify-content: space-around;
     background-color: #f3f9fa;
+     padding: 66px 0px;
+    margin-top: 100px;
+    margin-right: 60px;
+
 }
 .socialmediaimg{
     height: 50px;
     padding-left: 5px;
+    padding-left: 20px;
 }
 .list{
     list-style: none;
@@ -319,4 +417,45 @@ margin-left: 20px;
 .unorderedlist{
     padding-top: 10px;
 
+}
+.subscribe {
+    background-color: #248795;
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+.thend{
+    padding-top: 53px;
+}
+.courierdescription{
+    padding-left: 50px;
+}
+.logistics{
+    margin: 50px 20px 10px 53px;
+    display: flex;
+}
+.courierdesc{
+    display: flex;
+    align-items: center;
+}
+.socialimgwhole{
+    padding-top: 12px;
+}
+.any{
+    margin-top: 25px;
+}
+
+.final{
+    background-color: #f3f9fa;
+    margin-right: 60px;
+
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+.hr{
+    width: 90%;
+    margin-left: 80px;
+    
 }
